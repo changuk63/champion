@@ -8,7 +8,7 @@ import java.util.logging.Level;
 public class MainProgram {
 	private static Logger log;
 	
-	private MainProgram() {
+	MainProgram() {
 
 	}
 	

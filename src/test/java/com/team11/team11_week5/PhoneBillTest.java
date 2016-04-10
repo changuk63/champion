@@ -40,7 +40,6 @@ public class PhoneBillTest {
 	
 	@Test
 	public void testOthers() {
-		new InfoGetter();
 		calc.sumTotalRate();
 		assertFalse(calc.setPlan("bronze"));
 		info = new InfoGetter("Silver", 2000, 1);

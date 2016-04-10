@@ -21,6 +21,7 @@ public class PhoneBillTest {
 		assertEquals(0, Double.compare(planRates.getAdditionalLineRate(), 14.50));
 		assertEquals(planRates.getIncludedMinutes(), 1000);
 		assertEquals(0, Double.compare(planRates.getRatePerExcessMinute(), 0.45));
+		calc.sumTotalRate();
 	}
 	
 	@Test

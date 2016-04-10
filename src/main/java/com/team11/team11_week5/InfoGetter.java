@@ -2,7 +2,6 @@ package com.team11.team11_week5;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
-
 import java.util.logging.Level;
 
 public class InfoGetter {
@@ -12,6 +11,7 @@ public class InfoGetter {
 	private Logger log;
 	Scanner scan = new Scanner(System.in);
 	
+
 	public InfoGetter(){
 		setInfo();
 	}
